@@ -1,8 +1,8 @@
 from iphone_backup_decrypt import EncryptedBackup
 import os
 
-passphrase = "Yousuock05!"
-backup_path = "/home/gridl0ck/Downloads/00008140-000A55E236E3001C"
+passphrase = "[REPLACE WITH PASSWORD]"
+backup_path = "[REPLACE WITH PATH]"
 
 backup = EncryptedBackup(backup_directory=backup_path, passphrase=passphrase)
 

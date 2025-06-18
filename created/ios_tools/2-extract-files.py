@@ -2,8 +2,8 @@ from iphone_backup_decrypt import EncryptedBackup
 import os
 
 # Setup
-passphrase = "Yousuock05!"
-backup_path = "/home/gridl0ck/Downloads/00008140-000A55E236E3001C"
+passphrase = "REPLACE WITH PASSWORD"
+backup_path = "REPLACE WITH BACKUP PATH"
 paths_file = "./output/all_paths.txt"
 output_root = "./output/extracted_files"
 
